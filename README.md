@@ -70,21 +70,21 @@ Source-code-Plagiarism-Detection-System/
 
 ## Installation & Setup
 
-**1. Clone repository & open directory:**  
+**1. <u>Clone repository & open directory:<u/>**  
 git clone https://github.com/Manav3103/Source-code-Plagiarism-Detection-System.git
 cd Source-code-Plagiarism-Detection-System
 
-**2. Virtual environment setup**  
+**2. <u>Virtual environment setup<u/>**  
 **On Windows:**  
 python -m venv venv  
 venv\Scripts\activate  
 
 **On macOS/Linux:**  
-python3 -m venv venv
+python3 -m venv venv  
 source venv/bin/activate  
 
-**3. Install required dependencies** 
+**3. <u>Install required dependencies<u/>**  
 pip install -r requirements.txt  
 
-**4. Run Flask local server** 
+**4. <u>Run Flask local server<u/>**  
 python app.py  
