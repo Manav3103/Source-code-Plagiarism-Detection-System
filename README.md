@@ -65,3 +65,4 @@ Source-code-Plagiarism-Detection-System/
 │
 └── static/
     └── style.css           # UI styling and dashboard theme
+
