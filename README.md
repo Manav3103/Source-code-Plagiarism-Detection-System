@@ -66,6 +66,7 @@ Source-code-Plagiarism-Detection-System/
 └── static/
     └── style.css           # UI styling and dashboard theme
 ```
+
 ---
 
 ## Installation & Setup
@@ -88,3 +89,9 @@ pip install -r requirements.txt
 
 **4. <ins>Run Flask local server:</ins>**  
 python app.py  
+
+---
+
+## Output 
+
+<img width="1920" height="960" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/5ed13762-c3d0-4d69-8802-b8a9f5671552" />
