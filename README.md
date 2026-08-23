@@ -70,11 +70,11 @@ Source-code-Plagiarism-Detection-System/
 
 ## Installation & Setup
 
-**1. <u>Clone repository & open directory:</u>**  
+<u>**1.Clone repository & open directory:**</u>  
 git clone https://github.com/Manav3103/Source-code-Plagiarism-Detection-System.git
 cd Source-code-Plagiarism-Detection-System
 
-**2. <u>Virtual environment setup</u>**  
+**2. <u>Virtual environment setup:</u>**  
 **On Windows:**  
 python -m venv venv  
 venv\Scripts\activate  
