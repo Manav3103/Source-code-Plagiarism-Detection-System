@@ -70,7 +70,7 @@ Source-code-Plagiarism-Detection-System/
 
 ## Installation & Setup
 
-<u>**1.Clone repository & open directory:**</u>  
+**<u>1.Clone repository & open directory:</u>**  
 git clone https://github.com/Manav3103/Source-code-Plagiarism-Detection-System.git
 cd Source-code-Plagiarism-Detection-System
 
