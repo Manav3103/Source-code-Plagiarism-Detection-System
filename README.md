@@ -79,12 +79,12 @@ cd Source-code-Plagiarism-Detection-System
 python -m venv venv  
 venv\Scripts\activate  
 
-# On macOS/Linux:
-# python3 -m venv venv
-# source venv/bin/activate
+**On macOS/Linux:**  
+python3 -m venv venv
+source venv/bin/activate  
 
-# 3. Install required dependencies
-pip install -r requirements.txt
+**3. Install required dependencies** 
+pip install -r requirements.txt  
 
-# 4. Run Flask local server
-python app.py
+**4. Run Flask local server** 
+python app.py  
