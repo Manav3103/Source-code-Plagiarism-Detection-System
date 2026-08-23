@@ -83,8 +83,8 @@ venv\Scripts\activate
 python3 -m venv venv  
 source venv/bin/activate  
 
-**3. <ins>Install required dependencies</ins>**  
+**3. <ins>Install required dependencies:</ins>**  
 pip install -r requirements.txt  
 
-**4. <ins>Run Flask local server</ins>**  
+**4. <ins>Run Flask local server:</ins>**  
 python app.py  
