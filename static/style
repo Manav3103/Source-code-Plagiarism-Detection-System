@@ -1,0 +1,139 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Centered page titles */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+/* Form container */
+form {
+    max-width: 480px;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Input and textarea fields */
+input[type="text"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 12px 0 20px 0;
+    border: 1.8px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #f5f8fb;
+}
+
+/* Plagiarism percentage coloring */
+.low {
+    color: #27ae60; /* green */
+    font-weight: 700;
+}
+
+.medium {
+    color: #e67e22; /* orange */
+    font-weight: 700;
+}
+
+.high {
+    color: #c0392b; /* red */
+    font-weight: 700;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+    form, table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    th, td {
+        padding: 10px 6px;
+    }
+    button {
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+}
